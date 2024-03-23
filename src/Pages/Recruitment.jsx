@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import AcademicPerformanceTable from '../components/AcademicPerformanceTable';
+import CareerExperienceTable from '../components/CareerExperienceTable';
+import SubjectsHandledInput from '../components/SubjectsHandled';
+import AchievementsInput from '../components/AchivementsInput';
 
 export default function Recruitment() {
   let { type } = useParams()
@@ -275,15 +279,15 @@ export default function Recruitment() {
 
             </div>
             <hr />
-            <h3>Academic Performance</h3>
+            <AcademicPerformanceTable/>
             <hr />
-            Career Experience Details
-            <hr />
-            <hr />
-            Subjects Handled
+           <CareerExperienceTable/>
             <hr />
             <hr />
-            Achievements
+            <SubjectsHandledInput/>
+            <hr />
+            <hr />
+            <AchievementsInput/>
             <hr />
 
 
