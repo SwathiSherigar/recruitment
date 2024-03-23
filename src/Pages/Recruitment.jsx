@@ -268,8 +268,8 @@ export default function Recruitment() {
                 <input type="text" name='pdesignation' value={form.pdesignation} className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder='Enter Present Desingation' />
               </div>
     <div className=' ml-3 my-3 w-full flex flex-row gap-2 align-middle items-center'>
-                <label htmlFor="cemployee" className="block mb-2 text-sm font-medium text-gray-900">*Current  Employee:</label>
-                <input type="text" name='cemployee' value={form.cemployee} className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder='Enter Present Desingation' />
+                <label htmlFor="cemployee" className="block mb-2 text-sm font-medium text-gray-900">*Current  Employer:</label>
+                <input type="text" name='cemployer' value={form.cemployer} className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder='Enter current employer' />
               </div>
 
 
